@@ -10,9 +10,9 @@ Three production systems I designed and built in about a year, on my own, alongs
 
 An enterprise monitoring platform (SAP, six databases, servers, web services) built to replace a seven-figure commercial product. Python/FastAPI control plane, distributed collector agents, a React UI, an air-gapped AI diagnostic assistant, and automatic failover — proven against 3,000+ production systems and 200+ concurrent users.
 
-![MonLite dashboard](screenshots/dashboard.png)
+![MonLite dashboard](screenshots/monlite/dashboard.png)
 
-📄 **[Full write-up →](monlite.md)** · architecture deep-dives in [`architecture/`](architecture/) · more screens in [`screenshots/`](screenshots/)
+📄 **[Full write-up →](monlite.md)** · architecture deep-dives in [`architecture/`](architecture/) · more screens in [`screenshots/monlite/`](screenshots/monlite/)
 
 ---
 
@@ -28,7 +28,7 @@ A decision-support tool that turns SAP-to-cloud migrations from a static playboo
 
 A comedic board-deckbuilder party game for Steam and mobile, built end to end in Godot 4 — proof the same approach works far outside enterprise software. Its 3D art was produced with a multi-agent AI pipeline (one model briefs, another generates, a third renders).
 
-![Disaster Scenario gameplay](screenshots/disaster-scenario-gameplay.png)
+![Disaster Scenario gameplay](screenshots/disaster-scenario/gameplay.png)
 
 📄 **[Read more →](disaster-scenario.md)** · 🎮 **[Full showcase & gallery →](https://github.com/josh-lans/disaster-scenario-game)**
 

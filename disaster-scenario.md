@@ -4,7 +4,7 @@
 
 [← Back to portfolio](README.md) · 🎮 [Full showcase & gallery →](https://github.com/josh-lans/disaster-scenario-game)
 
-![Disaster Scenario gameplay](screenshots/disaster-scenario-gameplay.png)
+![Disaster Scenario gameplay](screenshots/disaster-scenario/gameplay.png)
 
 ## What it is
 

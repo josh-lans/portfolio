@@ -16,15 +16,15 @@ MonLite is an enterprise-grade infrastructure monitoring platform I designed and
 
 | Dashboard | Connections & Hierarchy |
 |-----------|------------------------|
-| ![Dashboard](screenshots/dashboard.png) | ![Connections](screenshots/connections.png) |
+| ![Dashboard](screenshots/monlite/dashboard.png) | ![Connections](screenshots/monlite/connections.png) |
 
 | Alarm Management | Threshold Configuration |
 |-----------------|------------------------|
-| ![Alarms](screenshots/alarms.png) | ![Thresholds](screenshots/thresholds.png) |
+| ![Alarms](screenshots/monlite/alarms.png) | ![Thresholds](screenshots/monlite/thresholds.png) |
 
 | Visualizations | Runbooks |
 |---------------|----------|
-| ![Visualizations](screenshots/visualizations.png) | ![Runbooks](screenshots/runbooks.png) |
+| ![Visualizations](screenshots/monlite/visualizations.png) | ![Runbooks](screenshots/monlite/runbooks.png) |
 
 ---
 
