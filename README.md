@@ -20,6 +20,8 @@ An enterprise monitoring platform (SAP, six databases, servers, web services) bu
 
 A decision-support tool that turns SAP-to-cloud migrations from a static playbook into a tailored, interactive plan for each customer. A multi-LLM engine drafts the plan, suggests improvements, and answers questions with sourced citations — and it gets smarter with every completed migration.
 
+![Pathfinder migration plan](screenshots/pathfinder/phases-board.png)
+
 📄 **[Read more →](pathfinder.md)**
 
 ---
