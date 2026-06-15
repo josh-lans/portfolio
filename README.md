@@ -8,7 +8,7 @@ Three production systems I designed and built in about a year, on my own, alongs
 
 ## 1. MonLite — Enterprise Observability Platform
 
-An enterprise monitoring platform (SAP, six databases, servers, web services) built to replace a seven-figure commercial product. Python/FastAPI control plane, distributed collector agents, a React UI, an air-gapped AI diagnostic assistant, and automatic failover — proven against 3,000+ production systems and 200+ concurrent users.
+An enterprise monitoring platform (SAP, six databases, servers, web services) built to replace a seven-figure commercial product. Python/FastAPI control plane, distributed collector agents, a React UI, an air-gapped AI diagnostic assistant, and automatic failover — scale-tested to handle 3,000+ systems and 200+ concurrent users.
 
 ![MonLite dashboard](screenshots/monlite/dashboard.png)
 

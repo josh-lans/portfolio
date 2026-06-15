@@ -185,7 +185,7 @@ MonLite has undergone an **8-phase security hardening** and **independent multi-
 
 ## Scalability
 
-Designed for **3,000+ monitored endpoints** with **200+ concurrent users**:
+Designed and scale-tested for **3,000+ monitored endpoints** with **200+ concurrent users**:
 
 - ETag/304 response caching across all API endpoints
 - SQL subquery RBAC filters (no post-fetch filtering)
