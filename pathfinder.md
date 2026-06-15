@@ -22,9 +22,6 @@ An operator answers a short set of questions about a customer's SAP environment.
 **Every step links the exact SAP Notes, each with a Scout summary grounded in the cached note** (verbatim phrases cited, never invented).
 ![Per-step SAP Note with grounded Scout summary](screenshots/pathfinder/scout-sap-note.png)
 
-**When a migration completes, lessons are captured, ratified, and fed forward** into the next engagement — the cumulative-intelligence loop.
-![Lessons-learned retrospective](screenshots/pathfinder/lessons-learned.png)
-
 **Issues are tracked per step, with Scout surfacing relevant SAP Notes and the team discussing inline.**
 ![Issue tracking with Scout relevance](screenshots/pathfinder/issues.png)
 
