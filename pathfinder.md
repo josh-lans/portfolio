@@ -31,10 +31,12 @@ An operator answers a short set of questions about a customer's SAP environment.
 ## How it's built
 
 - **Stack:** Python / FastAPI with async SQLAlchemy on PostgreSQL; React + TypeScript frontend.
-- **"Scout," a multi-provider LLM engine** (Anthropic, Gemini, OpenAI-compatible, Ollama) that drafts full phased plans, proposes targeted enhancements, and answers grounded questions with **classified citations** — using whichever model fits the task.
+- **"Scout," a multi-provider LLM engine** (Anthropic, Gemini, OpenAI-compatible, Ollama) that drafts full phased plans, proposes targeted enhancements, and answers grounded questions with **classified citations** — retrieving from the project's own knowledge base, using whichever model fits the task.
+- **Agentic, but human-gated:** Scout *proposes* structured next actions — flag an issue, capture a lesson — as reviewable cards. It never writes to the record itself; a human approves before anything commits.
 - **A cumulative-intelligence loop:** lessons from completed migrations are captured, ratified, and fed forward into future plans, so the tool keeps improving.
 - **Guardrails:** server-side validators keep advice stack-correct, and an operator-state-preservation contract means AI edits never overwrite a human's work.
-- **Enterprise-ready:** multi-provider single sign-on, role-based access, and a tamper-evident audit trail.
+- **Cross-product:** imports customer landscapes from MonLite (read-only) to pre-fill an engagement from authoritative source facts.
+- **Enterprise-ready:** multi-provider single sign-on, role-based access, and a tamper-evident, hash-chained audit trail (HMAC-SHA256).
 
 ## Why it matters
 

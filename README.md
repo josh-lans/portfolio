@@ -18,7 +18,7 @@ An enterprise monitoring platform (SAP, six databases, servers, web services) de
 
 ## 2. Pathfinder — AI-Augmented SAP Migration Tool
 
-A decision-support tool that turns SAP-to-cloud migrations from a static playbook into a tailored, interactive plan for each customer. A multi-LLM engine drafts the plan, suggests improvements, and answers questions with sourced citations — and it gets smarter with every completed migration.
+A decision-support tool that turns SAP-to-cloud migrations from a static playbook into a tailored, interactive plan for each customer. A multi-LLM engine ("Scout") drafts the plan and answers questions with sourced citations grounded in the project knowledge base, then proposes structured next actions a human approves before they commit — and it gets smarter with every completed migration.
 
 ![Pathfinder migration plan](screenshots/pathfinder/phases-board.png)
 
@@ -28,7 +28,7 @@ A decision-support tool that turns SAP-to-cloud migrations from a static playboo
 
 ## 3. Disaster Scenario — Cross-Platform Multiplayer Game
 
-A comedic board-deckbuilder party game for Steam and mobile, built end to end in Godot 4 — proof the same approach works far outside enterprise software. Its 3D art was produced with a multi-agent AI pipeline (one model briefs, another generates, a third renders).
+A comedic board-deckbuilder party game built end to end in Godot 4 and deployed to Steam (Windows / macOS / Steam Deck), launching soon — proof the same approach works far outside enterprise software. Its 3D art was produced with a multi-agent AI pipeline (one model briefs, another generates, a third renders).
 
 ![Disaster Scenario gameplay](screenshots/disaster-scenario/gameplay.png)
 

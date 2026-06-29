@@ -1,6 +1,6 @@
 # Disaster Scenario: The Game Show
 
-*A comedic board-deckbuilder party game for Steam and mobile. An independent project — built solo, end to end.*
+*A comedic board-deckbuilder party game built and deployed to Steam (Windows / macOS / Steam Deck), launching soon. An independent project — built solo, end to end.*
 
 [← Back to portfolio](README.md) · 🎮 [Full showcase & gallery →](https://github.com/josh-lans/disaster-scenario-game)
 
@@ -16,8 +16,8 @@ The first two projects are enterprise platforms. This one is a *game*, in a diff
 
 ## How it's built
 
-- **Godot 4 (~39,000 lines of GDScript)** with a pure, deterministic, unit-tested rules core (14 CI test gates) cleanly separated from rendering and networking.
-- **Online multiplayer over ENet**, plus a solo roguelite against bots. Cross-platform from one codebase (Steam + mobile), with controller and touch support.
+- **Godot 4 (~41,000 lines of GDScript)** with a pure, deterministic, unit-tested rules core (19 CI test gates) cleanly separated from rendering and networking.
+- **Real-time online multiplayer**, plus a solo roguelite against bots. Cross-platform from one codebase, deployed to Steam (Windows / macOS / Steam Deck), with controller and touch support.
 - The **3D art was produced with a multi-agent AI pipeline** — one model writes the asset brief, another generates it, a third renders it into the game through Meshy and Scenario. ([How that orchestration works →](https://github.com/josh-lans/agentic-dev-kit))
 
 ➡️ **[See the full gallery and pitch in the showcase repo](https://github.com/josh-lans/disaster-scenario-game)**
